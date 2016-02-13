@@ -1,0 +1,65 @@
+// changing class on button click -- learn rules
+$(function() {
+   $("#button2").click(function() {
+      // remove classes from all
+      $(".nav-tabs .active").removeClass("active");
+      // add class to the one we clicked
+      $("#section3").addClass("active");
+   });
+});
+
+// changing class on button click 
+$(function() {
+   $("#button1").click(function() {
+      // remove classes from all
+      $(".nav-tabs .active").removeClass("active");
+      // add class to the one we clicked
+      $("#section2").addClass("active");
+   });
+});
+
+//changing active class FOR THE NAV BAR
+$(function() {
+   $("#section1").click(function() {
+      // remove classes from all
+      $(".nav-tabs .active").removeClass("active");
+      // add class to the one we clicked
+      $(this).addClass("active");
+   });
+});
+
+$(function() {
+   $("#section2").click(function() {
+      // remove classes from all
+      $(".nav-tabs .active").removeClass("active");
+      // add class to the one we clicked
+      $(this).addClass("active");
+   });
+});
+
+$(function() {
+   $("#section3").click(function() {
+      // remove classes from all
+      $(".nav-tabs .active").removeClass("active");
+      // add class to the one we clicked
+      $(this).addClass("active");
+   });
+});
+
+$(function() {
+   $("#section4").click(function() {
+      // remove classes from all
+      $(".nav-tabs .active").removeClass("active");
+      // add class to the one we clicked
+      $(this).addClass("active");
+   });
+});
+
+$(function() {
+   $("#top1").click(function() {
+      // remove classes from all
+      $(".nav-tabs .active").removeClass("active");
+      // add class to the one we clicked
+      $("#section1").addClass("active");
+   });
+});
